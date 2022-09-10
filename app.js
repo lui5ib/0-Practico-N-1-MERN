@@ -18,6 +18,8 @@ function getCountryByIso3(isoCode){
  */
 function getCountryTranslatedName(isoCode, language){
     //Complete with your code
+    const lag_country = countries.filter(isoCode,lag);
+    return console.log(data_country);
 }
 /**Get an array of all the countries with the specified subregion
  * @param  {string} subregion
